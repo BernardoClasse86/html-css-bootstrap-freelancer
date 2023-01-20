@@ -17,6 +17,22 @@ section {
     padding: 2rem 0;
 }
 
+button {
+    border-style: none;
+    color: currentColor;
+}
+
+.my__button {
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: var(--bg-hero);
+}
+
+h5 {
+    text-transform: uppercase;
+}
+
 /************ MAIN HEADER ************/
 
 .main-header {
@@ -35,7 +51,7 @@ section {
 }
 
 .hamburger-border {
-    padding: 4px 12px;
+    padding: 0.25rem 0.75rem;
     border: 1px solid #888888;
     border-radius: 5px;
 }
@@ -70,7 +86,7 @@ section {
     font-size: 2rem;
 }
 
-.line {
+.line-hero {
     border: 2px solid white;
 }
 
@@ -91,6 +107,18 @@ section {
     row-gap: 2rem;
 }
 
+.line-main {
+    border: 2px solid black;
+}
+
+.main-section__title {
+    text-transform: uppercase;
+}
+
+.main-section__thumb {
+    border-radius: 10px;
+}
+
 /****** /MAIN SECTION ******/
 
 /****** ABOUT SECTION ******/
@@ -104,6 +132,18 @@ section {
     padding: 0 6rem;
 }
 
+.about-section__title {
+    text-transform: uppercase;
+}
+
+.top-m-space {
+    margin-top: 1.5rem;
+}
+
+.my__button.about-section__button {
+    border: 1px solid white;
+}
+
 /****** /ABOUT SECTION ******/
 
 /****** CONTACT SECTION ******/
@@ -112,8 +152,18 @@ section {
     padding: 0 7rem;
 }
 
-.bot-space {
-    margin-bottom: 9rem;
+.contact-section__title {
+    text-transform: uppercase;
+}
+
+.bot-p-space {
+    padding-bottom: 9rem;
+    border-bottom: 1px solid grey;
+}
+
+.contact-section__infos {
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
 }
 
 /****** /CONTACT SECTION ******/
@@ -127,6 +177,24 @@ section {
 .first-footer {
     background-color: var(--bg-footer-first);
     color: white;
+}
+
+.circle-icon {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid white;
+    padding-top: 1rem;
+    border-radius: 999px;
+    font-size: 1rem;
+}
+
+.start__link {
+    color: var(--bg-hero);
+}
+
+.p-x-icons {
+    padding: 0 1rem;
 }
 
 /****** /FIRST FOOTER ******/
