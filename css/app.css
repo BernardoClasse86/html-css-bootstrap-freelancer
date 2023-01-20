@@ -25,7 +25,7 @@ section {
     padding: 2rem 0;
 }
 
-.header-title {
+.header__title {
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -63,6 +63,24 @@ section {
 .avatar-thumb {
     width: 240px;
     aspect-ratio: 1;
+}
+
+.hero-main__title {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.line {
+    border: 2px solid white;
+}
+
+.star {
+    font-size: 2rem;
+}
+
+.hero-main__workers {
+    text-transform: uppercase;
+    font-size: 1.25rem;
 }
 
 /****** /MAIN HERO ******/
@@ -157,6 +175,15 @@ section {
     .tablet-desktop {
         display: block;
     }
+
+    .hero-main__title {
+        font-size: 3rem;
+    }
+
+    .hero-main__workers {
+        font-size: 1.5rem;
+    }
+
 }
 
 
