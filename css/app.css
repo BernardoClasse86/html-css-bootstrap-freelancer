@@ -13,6 +13,10 @@ a {
     color: currentColor;
 }
 
+a:hover {
+    color: currentColor;
+}
+
 section {
     padding: 2rem 0;
 }
@@ -35,7 +39,7 @@ h5 {
 
 /************ MAIN HEADER ************/
 
-.main-header {
+/* .main-header {
     background-color: var(--bg-header-footer-last);
     color: white;
     padding: 2rem 0;
@@ -59,6 +63,42 @@ h5 {
 .tablet-desktop {
     display: none;
     text-transform: uppercase;
+} */
+
+.my-nav-bg {
+    background-color: #2C3E50;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+    transition: none;
+}
+
+.navbar-toggler {
+    color: #888888;
+    border-color: #888888;
+}
+
+.navbar-toggler:hover {
+    transition: none;
+}
+
+.navbar-toggler-icon {
+    filter: contrast(0);
+}
+
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: white;
 }
 
 /************ /MAIN HEADER ************/
