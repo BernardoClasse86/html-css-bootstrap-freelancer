@@ -4,6 +4,12 @@
     --bg-footer-first: #3A546D;
 }
 
+::placeholder {
+    color: var(--bg-footer-first);
+    opacity: 1;
+    font-weight: 600;
+}
+
 img {
     max-width: 100%;
 }
@@ -31,6 +37,18 @@ button {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     background-color: var(--bg-hero);
+}
+
+input {
+    width: 100%;
+    border-style: none;
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    border-style: none;
+    outline: none;
 }
 
 h5 {
@@ -72,11 +90,12 @@ h5 {
 .navbar-brand {
     text-transform: uppercase;
     color: white;
+    font-weight: bold;
 }
 
 .navbar-brand:hover {
     color: white;
-    transition: none;
+    transition: 0ms;
 }
 
 .navbar-toggler {
@@ -95,6 +114,7 @@ h5 {
 .nav-link {
     color: white;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .nav-link:hover {
@@ -180,6 +200,10 @@ h5 {
     margin-top: 1.5rem;
 }
 
+.my-p-style {
+    font-size: 1rem;
+}
+
 .my__button.about-section__button {
     border: 1px solid white;
 }
@@ -196,9 +220,9 @@ h5 {
     text-transform: uppercase;
 }
 
-.bot-p-space {
-    padding-bottom: 9rem;
+.input-style {
     border-bottom: 1px solid grey;
+    padding-bottom: 0.75rem;
 }
 
 .contact-section__infos {
