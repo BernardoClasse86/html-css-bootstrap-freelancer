@@ -83,7 +83,7 @@ h5 {
 
 .hero-main__title {
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .line-hero {
@@ -129,7 +129,7 @@ h5 {
 }
 
 .padding-about {
-    padding: 0 6rem;
+    padding: 0 3rem;
 }
 
 .about-section__title {
@@ -174,13 +174,25 @@ h5 {
 
 /****** FIRST FOOTER ******/
 
+.col-auto.social-links {
+    padding: 0;
+}
+
 .first-footer {
     background-color: var(--bg-footer-first);
     color: white;
 }
 
+.row-gap-footer {
+    row-gap: 2rem;
+}
+
 .icon-gap  {
-    /* gap: 0.75rem; */
+    gap: 1rem;
+}
+
+.col-auto.icon-pd-0 {
+    padding: 0;
 }
 
 .circle-icon {
@@ -195,10 +207,6 @@ h5 {
 
 .start__link {
     color: var(--bg-hero);
-}
-
-.p-x-icons {
-    padding: 0 1rem;
 }
 
 /****** /FIRST FOOTER ******/
@@ -249,7 +257,7 @@ h5 {
     }
 
     .hero-main__title {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .hero-main__workers {
